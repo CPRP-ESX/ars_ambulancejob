@@ -4,7 +4,7 @@ Config                         = {}
 
 Config.Debug                   = false
 
-Config.ClothingScript          = 'illenium-appearance' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
+Config.ClothingScript          = 'core' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
 Config.EmsJobs                 = { "ambulance", "ems" }
 Config.RespawnTime             = 5                     -- in minutes
 Config.UseInterDistressSystem  = true
@@ -148,7 +148,7 @@ Config.Hospitals = {
 					{
 						label = 'Ambulance',
 						spawn_code = 'ambulance',
-						min_grade = 3,
+						min_grade = 0,
 						modifications = {} -- es. {color1 = {255, 12, 25}}
 					},
 				}
