@@ -4,7 +4,7 @@ Config                         = {}
 
 Config.Debug                   = false
 
-Config.ClothingScript          = 'core' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
+Config.ClothingScript          = 'fivem-appearance' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
 Config.EmsJobs                 = { "ambulance", "ems" }
 Config.RespawnTime             = 5                     -- in minutes
 Config.UseInterDistressSystem  = true
